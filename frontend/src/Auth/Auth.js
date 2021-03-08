@@ -7,7 +7,6 @@ let prodEndpoint = "https://www.your-cookbook.us";
 class Auth {
   constructor() {
     this.authFlag = "isLoggedIn";
-
     this.auth0 = new auth0.WebAuth({
       domain: "cookbookproject.auth0.com",
       clientID: "7klW1TtJaes7ZrekqNXavbJrwWQLkDf0",

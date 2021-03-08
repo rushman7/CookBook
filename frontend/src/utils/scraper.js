@@ -17,7 +17,7 @@ const og_scraper = el => {
 const scraper = async url => {
   try {
     const response = await axios.get(
-      "https://api.allorigins.ml/get?url=" + encodeURIComponent(url)
+      "https://api.allorigins.win/get?url=" + encodeURIComponent(url)
     );
     const html = response.data.contents;
     const parser = new DOMParser();
@@ -31,7 +31,6 @@ const scraper = async url => {
     let servings = "N/A";
     let ingredient_list = [];
     let instructions = [];
-
     //First whitelisted website geniuskitchen.com
     if (url.toLowerCase().includes("geniuskitchen")) {
       const prep_time_el = el.querySelector(`td.time`);
@@ -127,6 +126,7 @@ const scraper = async url => {
       instructions
     };
   } catch (error) {
+    console.log(error)
     return { error: error.message };
   }
 };
