@@ -10,7 +10,7 @@ server.start(
   {
     cors: {
       credentials: true,
-      origin: [process.env.FRONTEND_URL, "https://your-cookbook.netlify.app]
+      origin: [process.env.FRONTEND_URL, "https://your-cookbook.netlify.app"]
     }
   },
   () =>
