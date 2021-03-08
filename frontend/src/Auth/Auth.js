@@ -2,7 +2,7 @@ import auth0 from "auth0-js";
 
 // Change callback URL based on where the app is hosted
 let devEndpoint = "http://localhost:3000";
-let prodEndpoint = "https://www.your-cookbook.us";
+let prodEndpoint = "https://your-cookbook.netlify.app";
 
 class Auth {
   constructor() {
