@@ -1,11 +1,11 @@
 # Labs8-Cookbook
-![Cookbook Logo](/cookbook/src/designs/Logo/LogoWithTextBlue.png)
+![Cookbook Logo](/frontend/src/designs/Logo/LogoWithTextBlue.png)
 
 ## About Our App
 
 [Watch The Demo](https://www.youtube.com/watch?v=kwAseuJUqoI&feature=youtu.be)
 
-[Visit the Website](https://your-cookbook.us)
+[Visit the Website](https://your-cookbook.netlify.app)
 
 ### Features
 With Cookbook, you can save recipes from any website onto your account to view all in one place. Recipes can be scheduled for any number of dates and meal of the day. You can view all information about a recipe including scheduled time, cook time, servings, ingredients, and instructions. Recipes from **allrecipes.com** and **geniuskitchen.com** support a checklist for the list of instructions. You can also view a calendar that shows when all of your recipes are scheduled. You can reschedule recipes and copy the previous week’s recipes for easy scheduling! If you choose to support the Cookbook team by purchasing a subscription through the Settings page, you can generate a grocery list for any date range of recipes that are from **allrecipes.com** or **geniuskitchen.com**.
@@ -310,34 +310,34 @@ Free users have full access to create recipe and schedule meals in recipes page 
 
 ### Original Wireframes
 
-![Landing Page](/cookbook/Mockups/Balsamiq/LandingPage.png)
+![Landing Page](/frontend/Mockups/Balsamiq/LandingPage.png)
 
-![Create](/cookbook/Mockups/Balsamiq/Create.png)
+![Create](/frontend/Mockups/Balsamiq/Create.png)
 
-![Recipes](/cookbook/Mockups/Balsamiq/Recipes.png)
+![Recipes](/frontend/Mockups/Balsamiq/Recipes.png)
 
-![SingleRecipe](/cookbook/Mockups/Balsamiq/SingleRecipe.png)
+![SingleRecipe](/frontend/Mockups/Balsamiq/SingleRecipe.png)
 
-![Calendar](/cookbook/Mockups/Balsamiq/Calendar.png)
+![Calendar](/frontend/Mockups/Balsamiq/Calendar.png)
 
-![GroceryList](/cookbook/Mockups/Balsamiq/GroceryList.png)
+![GroceryList](/frontend/Mockups/Balsamiq/GroceryList.png)
 
-![Billing](/cookbook/Mockups/Balsamiq/Billing.png)
+![Billing](/frontend/Mockups/Balsamiq/Billing.png)
 
-![Settings](/cookbook/Mockups/Balsamiq/Settings.png)
+![Settings](/frontend/Mockups/Balsamiq/Settings.png)
 
 
 ### Mockups
 
-![Landing Page](/cookbook/Mockups/LandingPage.png)
+![Landing Page](/frontend/Mockups/LandingPage.png)
 
-![Create Page](/cookbook/Mockups/Create.png)
+![Create Page](/frontend/Mockups/Create.png)
 
-![Recipes Page](/cookbook/Mockups/Recipes.png)
+![Recipes Page](/frontend/Mockups/Recipes.png)
 
-![Calendar Page](/cookbook/Mockups/Calendar.png)
+![Calendar Page](/frontend/Mockups/Calendar.png)
 
-![Grocery List Page](/cookbook/Mockups/GroceryList.png)
+![Grocery List Page](/frontend/Mockups/GroceryList.png)
 
 
 ### Overall Style and Theme
