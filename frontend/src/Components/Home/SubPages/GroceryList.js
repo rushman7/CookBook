@@ -115,6 +115,7 @@ class GroceryList extends Component {
   render() {
     const { from, to } = this.state;
     const modifiers = { start: from, end: to };
+    console.log(this.state)
     // maps through each item in the grovcery list & error checking if GL has no values
     const grocery_list = this.state.groceryList.length ? (
       <div className="item-list">
@@ -158,7 +159,7 @@ class GroceryList extends Component {
     ) : null;
 
     return (
-      <GatedSubscription>
+      // <GatedSubscription>
         <div className="grocery-list-page">
           <Helmet>
             <title>GroceryList | COOKBOOK</title>
@@ -202,7 +203,7 @@ class GroceryList extends Component {
             </div>
           </div>
         </div>
-      </GatedSubscription>
+      // </GatedSubscription>
     );
   }
 }
