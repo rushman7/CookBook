@@ -1,3 +1,6 @@
+# Test-Login
+email: test_email@gmail.com
+password: Password1
 # Labs8-Cookbook
 ![Cookbook Logo](/frontend/src/designs/Logo/LogoWithTextBlue.png)
 
